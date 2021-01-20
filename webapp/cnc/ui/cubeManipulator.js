@@ -39,12 +39,12 @@ define(['THREE', 'libs/threejs/CSS3DRenderer', 'libs/threejs/OrbitControls'], fu
         var r = Math.PI / 2;
         var d = 49.5;//slight inset to help mask the seams between the faces
         var faces = [
-            {pos: [d, 0, 0], rot: [r, r, 0], name: 'Right', camera: [1, 0, 0]},
-            {pos: [-d, 0, 0], rot: [r, -r, 0], name: 'Left', camera: [-1, 0, 0]},
-            {pos: [0, d, 0], rot: [-r, 0, 2 * r], name: 'Back', camera: [0, 1, 0]},
-            {pos: [0, -d, 0], rot: [r, 0, 0], name: 'Front', camera: [0, -1, 0]},
-            {pos: [0, 0, d], rot: [0, 0, 0], name: 'Top', camera: [0, 0, 1]},
-            {pos: [0, 0, -d], rot: [0, 2 * r, 2 * r], name: 'Bottom', camera: [0, 0, -1]}
+            {pos: [d, 0, 0], rot: [r, r, 0], name: 'Høyre', camera: [1, 0, 0]},
+            {pos: [-d, 0, 0], rot: [r, -r, 0], name: 'Venstre', camera: [-1, 0, 0]},
+            {pos: [0, d, 0], rot: [-r, 0, 2 * r], name: 'Bakside', camera: [0, 1, 0]},
+            {pos: [0, -d, 0], rot: [r, 0, 0], name: 'Foran', camera: [0, -1, 0]},
+            {pos: [0, 0, d], rot: [0, 0, 0], name: 'Topp', camera: [0, 0, 1]},
+            {pos: [0, 0, -d], rot: [0, 2 * r, 2 * r], name: 'Bunn', camera: [0, 0, -1]}
         ];
         var cube = new THREE.Object3D();
         scene.add(cube);
