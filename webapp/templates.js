@@ -871,13 +871,13 @@ function program9(depth0,data) {
   data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
     'disabled': ("computing")
   },hashTypes:{'disabled': "STRING"},hashContexts:{'disabled': depth0},contexts:[],types:[],data:data})));
-  data.buffer.push(">Simulate</button>\n    <button ");
+  data.buffer.push(">Simuler</button>\n    <button ");
   data.buffer.push(escapeExpression(helpers.action.call(depth0, "loadBigSample", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
   data.buffer.push(" ");
   data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
     'disabled': ("computing")
   },hashTypes:{'disabled': "STRING"},hashContexts:{'disabled': depth0},contexts:[],types:[],data:data})));
-  data.buffer.push(">Load a bigger sample</button>\n\n    ");
+  data.buffer.push(">Last inn et annet eksempel</button>\n\n    ");
   stack1 = helpers['if'].call(depth0, "computing", {hash:{},hashTypes:{},hashContexts:{},inverse:self.program(9, program9, data),fn:self.program(7, program7, data),contexts:[depth0],types:["ID"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("\n</div>");
